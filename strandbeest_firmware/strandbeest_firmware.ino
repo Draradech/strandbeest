@@ -10,6 +10,7 @@ void setup()
   setupVoltage();
   setupStepper();
   setupControl();
+  setupWeb();
 }
 
 void loop()
@@ -20,6 +21,7 @@ void loop()
     loopControl();
     loopStepper();
 
+    loopWeb();
     loopInputOutput();
   }
   loopOta();

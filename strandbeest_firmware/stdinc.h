@@ -26,6 +26,7 @@ void setupLed();
 void setupOta();
 void setupStepper();
 void setupWifi();
+void setupWeb();
 
 void loopAttitude();
 void loopControl();
@@ -33,6 +34,7 @@ void loopInputOutput();
 void loopVoltage();
 void loopOta();
 void loopStepper();
+void loopWeb();
 
 void ledColor(bool r, bool g, bool b);
 
