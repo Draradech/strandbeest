@@ -24,16 +24,16 @@ void setupStepper()
 
 void loopStepper()
 {
-  if(sensorData.voltage < 13200)
+  if(sensorData.voltage < 10000)
   {
     actuator.deactivated = true;
     ledColor(1,0,0);
   }
-  else if(sensorData.voltage < 13800)
+  else if(sensorData.voltage < 10500)
   {
     ledColor(1,0,0);
   }
-  else if(sensorData.voltage < 14400)
+  else if(sensorData.voltage < 11000)
   {
     ledColor(1,1,0);
   }
